@@ -1,0 +1,5 @@
+export const PERSONA_TEMPLATE_ID = process.env.REACT_APP_PERSONA_TEMPLATE_ID
+export const PERSONA_ENV = process.env.REACT_APP_PERSONA_ENVIRONMENT
+export const PERSONA_ENV_ID = process.env.REACT_APP_PERSONA_ENVIRONMENT_ID
+
+export const SOCKET_URL = process.env.REACT_APP_SOCKET_URL

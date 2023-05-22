@@ -1,0 +1,168 @@
+.logout_cancel_button {
+  color: #000080;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 1.5px solid #000080;
+}
+.btn-primary {
+  border: 1.5px solid #000080;
+}
+.modal-content {
+  border-radius: 12px;
+}
+#repayment_confirm {
+  padding: 0px 40px 30px 40px;
+}
+.repayment_box {
+  background: #fafcff;
+  border: 1px solid #e2ecff;
+  border-radius: 6px;
+  padding: 20px 20px 10px 20px;
+}
+.repayment_title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #000012;
+}
+.repayment_subheading {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
+}
+.repayment_text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #616161;
+}
+.repayment_value {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #000012;
+}
+.border_top_grey {
+  border-top: 1px solid #e2ecff;
+}
+.repayment_usdc {
+  height: 20px;
+  width: 30px;
+}
+.fw600 {
+  font-weight: 600;
+}
+#repayment .question_position {
+  position: absolute;
+  right: 55px;
+  top: 90px;
+}
+#repayment .amount {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+.modal_width_760 .modal-dialog {
+  max-width: 780px;
+  width: 100%;
+  padding: 0 20px;
+}
+#verification_error {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+@media (max-width: 400px) {
+  .f_wrap {
+    flex-wrap: wrap;
+  }
+  .repayment_text {
+    font-size: 14px;
+  }
+  .repayment_value {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000012;
+  }
+}
+.repayment_usdc {
+  height: 20px;
+  width: 30px;
+}
+.fw600 {
+  font-weight: 600;
+}
+
+/* otp verification modal */
+#otp_verification .heading_text {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000037;
+}
+#otp_verification .subheading_text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #616161;
+}
+#otp_verification .otp_input_container input {
+  border: none;
+  width: 16.6667% !important;
+  color: #424242;
+  border-bottom: 1px solid #616161;
+  font-size: 32px;
+  height: 50px;
+  border-radius: 0;
+  background: unset;
+  justify-content: space-between;
+  margin-right: 29px !important;
+}
+#otp_verification .otp_input_container input:last-of-type {
+  margin-right: 0 !important;
+}
+.timer {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #f95c66;
+}
+.resent_link {
+  color: #1a96f0;
+  font-size: 14px;
+  opacity: 0.5;
+}
+.custom_otp div:first-child {
+  justify-content: space-between;
+}
+.otp_input_container div:last-child {
+  margin-right: 0;
+}
+#otp_verification .verify_button:disabled {
+  background-color: #000080;
+  border: none;
+  opacity: 0.5;
+}
+#otp_verification .otp_input_container input:focus-visible {
+  outline: none;
+  outline-offset: none;
+}
+#loan_error{
+  margin-bottom: 15px;
+}
+/* .withdraw_funds_modal.modal-width-760 {
+  padding-right: 20px;
+} */
+@media (max-width: 475px) {
+  #otp_verification .otp_input_container input {
+    margin-right: 15px !important;
+  }
+}

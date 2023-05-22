@@ -1,0 +1,257 @@
+.interest_modal {
+  padding: 30px 40px;
+}
+.interset_icon_container {
+  width: 50px;
+  height: 50px;
+  background: #f0f5ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  position: relative;
+}
+.interest_plus {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-radius: 50px;
+  top: 0;
+  right: 0;
+}
+.interest_value {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000012;
+  margin-top: 10px;
+}
+.interest_value span {
+  margin: 0 4px;
+}
+.interest_value span.plus {
+  font-size: 26px;
+}
+.interest_hint {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #9e9e9e;
+}
+.interest_info_left {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #616161;
+}
+.interest_info_container {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 16px;
+}
+.interest_info {
+  margin-top: 26px;
+}
+.id_value {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000012;
+}
+.interest_hr {
+  height: 1px;
+  background-color: #eee;
+  width: 22px;
+}
+.interest_full_hr {
+  width: 100%;
+}
+.interest_title {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #757575;
+}
+.interest_details_box {
+  padding: 7px 24px 10px 24px;
+  border: 1px solid #eee;
+  border-top: none;
+  margin-top: -12px;
+}
+.interest_detail_title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #616161;
+}
+.interest_details_box .interest_value {
+  font-size: 16px;
+}
+.interset_earned_value {
+  color: #757575;
+}
+.interest_details_box .apy_percent {
+  width: 53px;
+}
+#interest_token img{
+  height: 25px;
+}
+/* transfer */
+.transfer_dropdown_btn_title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #9e9e9e;
+}
+.transfer_input {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #9e9e9e;
+}
+.amount_input_container {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  height: 44px;
+}
+.amount_input_btc_icon {
+  padding: 16px 16px 16px 20px;
+  border-right: 1px solid #eee;
+}
+.group_input_btc_title.btc_title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+}
+.transfer_btc_title.btc_title {
+  font-size: 14px;
+}
+.timestamp.preview_right {
+  color: #616161;
+}
+.withdrawl_fund_container {
+  background: #fafcff;
+  border: 1px solid #e2ecff;
+  border-radius: 6px;
+  padding: 16px 20px 16px 16px;
+  margin-bottom: 16px;
+}
+.withdrawl_modal_tooltip[data-tooltip]:before {
+  min-width: 130px;
+}
+.withdrawfund_usdc_balance_amount {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #424242;
+  margin-left: 8px;
+}
+.withdrawfund_usdc_balance_amount span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #757575;
+}
+.recieve_fund_title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #424242;
+}
+.funds_receive_btn_container {
+  /* display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap; */
+}
+.checkbox.fund_label {
+  border: 1px solid #e2ecff;
+  border-radius: 6px;
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000012;
+  text-transform: uppercase;
+  margin-top: 16px;
+  /* margin-right: 16px; */
+}
+.checkbox.fund_label:last-of-type {
+  margin-right: 0;
+}
+.refund_checkbox__box {
+  width: 24px;
+  height: 24px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background-color: transparent;
+  transition: background 0.15s, border-color 0.15s;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+.refund_checkbox__box::after {
+  content: url("../../../../assets/images/check_icon.svg");
+  color: #fff;
+  transform: scale(0);
+  transition: transform 0.15s;
+  height: 26.5px;
+}
+.checkbox__input:checked + .refund_checkbox__box {
+  background: #000080;
+  border-color: #000080;
+}
+.checkbox.fund_label:has(> .checkbox__input:checked) {
+  border: 1px solid #000080;
+}
+.checkbox__input:checked + .refund_checkbox__box::after {
+  transform: scale(1);
+}
+.withdraw_fund_btc_dropdown {
+  max-width: 342px;
+  width: 100%;
+}
+#btc_dropdown.withdraw_fund_btc_dropdown button,
+#btc_dropdown.withdraw_fund_btc_dropdown button:hover,
+#btc_dropdown.withdraw_fund_btc_dropdown button:focus,
+#btc_dropdown.withdraw_fund_btc_dropdown input,
+#btc_dropdown.withdraw_fund_btc_dropdown input:hover,
+#btc_dropdown.withdraw_fund_btc_dropdown input:focus {
+  height: 44px;
+}
+.withdrawl_amount_coin_dropdown#btc_dropdown .dropdown-menu.show {
+  min-width: 125px;
+  width: 125px;
+}
+.withdraw_funds_confirm_btn {
+  max-width: 380px;
+  width: 100%;
+}
+#creditline_withdraw{
+margin-top: 15px;
+}
+/* responsive */
+@media (max-width: 675px) {
+  .interest_modal {
+    padding: 30px 16px;
+  }
+}
+@media (min-width: 576px) {
+  .transfer_modal .modal-dialog-centered,
+  .interest_modal_dialog .modal-dialog-centered,
+  .withdraw_funds_modal .modal-dialog-centered {
+    min-height: calc(100% - (0.5rem * 2));
+  }
+}
+@media (max-width: 475px) {
+}

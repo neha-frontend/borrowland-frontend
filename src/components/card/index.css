@@ -1,0 +1,768 @@
+/* AuthHeaderCard */
+.back_icon {
+  display: flex;
+  left: 10px;
+  justify-content: start;
+  position: absolute;
+  top: 13px;
+}
+.auth_logo {
+  margin: 0px 0 0px 0;
+  height: 66px;
+  width: 66px;
+}
+.text_grey,
+.text_grey:hover {
+  color: #616161;
+  font-weight: 400;
+  font-size: 14px;
+}
+.mx-110 {
+  max-width: 110px;
+  width: 100%;
+}
+
+/* Ad banner card */
+.banner_card {
+  width: 49%;
+  border-radius: 6px;
+}
+
+/* information card */
+.border_box {
+  flex-wrap: wrap;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+}
+.border_box .info_card {
+  padding: 20px 0px 20px 20px;
+  flex: 0 0 calc(100% / 4);
+}
+.info_card {
+  /* padding: 20px 0px 20px 20px; */
+}
+
+.info_card_border {
+  padding-right: 20px;
+  border-right: 1px solid #e0e0e0;
+}
+.info_icon {
+  width: 38px;
+  height: 38px;
+  left: 5px;
+  top: 4px;
+}
+.info_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #000012;
+  margin: 16px 0;
+}
+.info_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #424242;
+}
+
+/* identity verification card */
+.identity_verify_card {
+  padding-top: 24px;
+  /* padding-bottom: 24px; */
+  background: #fafcff;
+}
+.kyc-border {
+  border: 1px solid #dee5f3;
+  border-radius: 10px;
+  max-width: 1230px !important;
+}
+.border_bottom_email {
+  flex: 100%;
+}
+.verify_email_img {
+  flex: 0%;
+}
+.border_bottom_email {
+  flex: 100% 1;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 24px;
+}
+.verify_email_button button {
+  width: 123px;
+}
+.main_feature_box {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+.feature_flex {
+  padding: 10px;
+  flex: 0 0 calc(100% / 3);
+}
+
+.feature_box {
+  background: #ffffff;
+  border: 1px solid #e2ecff;
+  border-radius: 6px;
+}
+.identity_verify_title {
+  color: #050568;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+}
+.identity_verify_text {
+  color: #616161;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 8px;
+}
+.identity_verify_button.profile_identity_verify_btn {
+  width: 123px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0 0;
+}
+.identity_verify_button:disabled,
+.profile_identity_verify_btn:disabled {
+  background: #000080;
+  opacity: 0.65;
+  cursor: default;
+}
+.icon_size {
+  width: 20px;
+  height: 10px;
+}
+
+/* balance card */
+.balance_card {
+  border-radius: 6px;
+  height: 128px;
+}
+.w-98 {
+  width: 98%;
+}
+.balance_card_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  color: #424242;
+}
+.question_position {
+  position: absolute;
+  right: 6px;
+  top: 10px;
+}
+.balance_card_value {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #424242;
+}
+
+/* option card */
+.option_card_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000012;
+}
+.option_card_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #424242;
+}
+.crypto_logo {
+  height: 40px;
+  width: 40px;
+  margin-right: 12px;
+}
+.btc_title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000012;
+}
+.btc_value {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: #424242;
+}
+.market_box .btc_value {
+  font-size: 24px;
+}
+.market_box {
+  padding: 20px;
+  border: 1px solid #e9f0fd;
+  border-radius: 6px;
+}
+.value_btc_box {
+  justify-content: space-between;
+  max-width: 105px;
+  width: 100%;
+}
+.bgblue {
+  background: #f6f9ff;
+}
+.market_container_box {
+  padding: 0 12px;
+  flex: 0 0 calc(100% / 4);
+}
+.market_wrapper_box {
+  display: flex;
+  margin: 20px -12px 0;
+}
+.market_asset_wrapper {
+  padding: 30px 24px;
+}
+.asset_input {
+  width: 100%;
+  max-width: 150px;
+  position: absolute;
+  right: 30px;
+  top: 74px;
+}
+/* .asset_input .input_icon {
+  top: 11px;
+} */
+.asset_input input {
+  padding-right: 10px;
+}
+/* Custom card load on */
+.loan_box_main {
+  display: flex;
+  margin: 20px 0;
+}
+.loan_wrapper {
+  padding: 28px 0px 28px 24px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: calc(100% / 4);
+}
+.loan_border {
+  padding-right: 24px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.loan_title {
+  /* height: 70px; */
+  margin: 16px 0 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #000012;
+}
+.loan_box_main .loan_wrapper:last-child .loan_border {
+  border-right: none;
+}
+.loan_desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #424242;
+}
+
+/* Custom tabs css */
+#custom_tabs_pil .nav-tabs .nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #616161;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: unset;
+}
+#custom_tabs_pil ul li:first-child .nav-link {
+  padding-left: 10px;
+}
+
+#custom_tabs_pil .nav-tabs {
+  border: none;
+}
+#custom_tabs_pil .nav-tabs .nav-link.active {
+  color: #000080;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+
+  border-bottom: 2px solid #000080;
+}
+#custom_tabs_pil .nav-tabs .nav-link:focus {
+  outline: none;
+  box-shadow: none;
+}
+#custom_tabs_pil .nav-item button {
+  cursor: pointer;
+}
+/* Table added */
+#my_table .table thead tr,
+#my_loan_table .table thead tr {
+  background: rgba(247, 249, 252, 0.8);
+  backdrop-filter: blur(4px);
+  border: none;
+}
+#my_table .table tbody tr td {
+  border: none;
+  vertical-align: middle;
+}
+#my_loan_table .table tbody tr td {
+  border: none;
+  vertical-align: middle;
+}
+#my_table .table tbody tr {
+  border-top: 0.2px solid #e9edf5;
+}
+#my_table .table thead th,
+#my_loan_table .table thead th {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #687182;
+  vertical-align: bottom;
+  border-bottom: none;
+}
+.sr_num {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #171c26;
+}
+.sr_num_ans {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #171c26;
+  text-align: center;
+}
+
+.coin_title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #000012;
+}
+.coin_value {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 4px;
+  color: #616161;
+}
+.coin_value_wrapper {
+  margin-left: 12px;
+}
+.coin_wrapper {
+  display: flex;
+}
+.green_text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #2cbca5;
+}
+.red_text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #f95c66;
+}
+.interest_box {
+  background: #e1fcef;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+}
+.bt_table_wrapper {
+  display: flex;
+  justify-content: SPACE-EVENLY;
+}
+.bt_table_wrapper button {
+  min-width: 110px;
+  margin-right: 12px;
+}
+.bt_table_wrapper button:last-child {
+  min-width: unset;
+  margin-right: unset;
+}
+.centered_content {
+  height: 77px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.scroll_table {
+  overflow-x: auto;
+}
+#my_table .table {
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+.scroll_table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.coin_img img {
+  height: 40px;
+  width: 40px;
+}
+.security_btn button {
+  width: 100%;
+  max-width: 200px;
+  background: #e5eeff;
+  border-radius: 6px;
+  color: #000080;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #000080;
+  min-width: 200px;
+  border: none;
+}
+.h14 {
+  height: 14px;
+}
+/* My loans table card */
+.my_loans_border_box {
+  background: #ffffff;
+  border: 1px solid #e2ecff;
+  box-shadow: -2px 4px 6px rgba(188, 210, 255, 0.41);
+  border-radius: 4px;
+}
+.my_loans_border_box #my_loan_table {
+  /* min-height: 400px; */
+  position: relative;
+}
+.my_loans_border_box #my_loan_table .pagination_container {
+  position: absolute;
+  width: 100%;
+  bottom: -15px;
+}
+.fixed_previous_table .pagination_container {
+  position: absolute;
+  width: 95%;
+  bottom: 0px;
+  left: 24px;
+}
+#my_table .table tbody tr {
+  border-bottom: 0.2px solid #e9edf5;
+}
+.status_box {
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 20px;
+  font-weight: 700;
+  font-size: 14px;
+  width: max-content;
+}
+.success_status {
+  background: #e1fcef;
+  color: #14804a;
+}
+.pending_status {
+  background: #fef0bd;
+  color: #aa870b;
+}
+.failed_status {
+  background: #f95c66;
+  color: #ffffff;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.reject_status {
+  background: #f95c66;
+  color: #ffffff;
+}
+.agent-btn {
+  margin-top: 10px;
+  border: none;
+  border-radius: 10pc;
+  padding: 10px;
+  background: #000080;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  width: 50%;
+  cursor: pointer;
+}
+.agent-btn:hover {
+  background-color: #0000fe;
+}
+/* .pending_status {
+  background: #ffe9ea;
+
+  color: #f95c66;
+}
+.pending_status {
+  background-color: #ffe9ea;
+  color: #f95c66;
+} */
+.active_status {
+  background: #e2ecff;
+  color: #0054f0;
+}
+.completed_status {
+  background: #e1fcef;
+  color: #14804a;
+}
+.outstanding_status {
+  background: #f95c66;
+  color: #ffffff;
+}
+
+#pay_now_button {
+  height: 40px;
+}
+#pay_now_button:disabled {
+  background: #d8d8d8;
+  opacity: 0.5;
+  border: 1.5px solid #d8d8d8;
+}
+#loansNotFound.no_data_found_container {
+  min-height: 400px;
+}
+/* Custom card load end */
+/* error message card */
+.invalid_error {
+  display: block;
+  font-size: 16px;
+  color: #dc3545;
+  margin-bottom: 25px;
+  margin-top: 0px;
+}
+.error {
+  font-size: 16px;
+  color: #dc3545;
+}
+/* error message card ends */
+/* No Data Found card start */
+.no_data_found_container {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  border: 1px solid #dee2e6;
+  background: rgba(255 255 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  margin: 10px 0;
+}
+#transaction_not_found {
+  border: none;
+  height: 500px;
+}
+.no_data_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+  color: #959ba7;
+}
+
+/* No Data Found card end */
+@media (max-width: 1180px) {
+  .market_wrapper_box {
+    flex-wrap: wrap;
+  }
+  .market_container_box {
+    padding: 12px 12px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(100% / 2);
+  }
+  .feature_flex {
+    padding: 10px;
+    flex: 0 0 calc(100% / 2);
+  }
+}
+@media (max-width: 1024px) {
+  .question_position {
+    position: absolute;
+    right: -2px;
+    top: 6px;
+    height: 15px;
+    width: 15px;
+  }
+  .loan_wrapper {
+    padding: 28px 0px 28px 24px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(100% / 2);
+  }
+  .loan_wrapper:nth-child(2) .loan_border {
+    border-right: none;
+  }
+}
+@media (max-width: 950px) {
+  #cards_wrapper_balance .question_position {
+    position: absolute;
+    right: 8px;
+    top: 16px;
+    height: 20px;
+    width: 20px;
+  }
+  #cards_wrapper_balance .card_box_prizing {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(100% / 1);
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 12px 0;
+  }
+  .cards_wrapper_balance {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+}
+@media (max-width: 800px) {
+  .feature_flex {
+    padding: 10px;
+    flex: 0 0 calc(100% / 1);
+  }
+}
+@media (max-width: 700px) {
+  .verify_email_title .text {
+    width: 330px;
+    word-break: break-word;
+  }
+  .identity_wrapper_responsive .verify_email_img {
+    /* flex: 100%; */
+    margin-right: 16px;
+  }
+  .identity_wrapper_responsive {
+    /* flex-direction: column;
+    align-items: center; */
+    /* justify-content: flex-start; */
+  }
+  .market_container_box {
+    padding: 12px 12px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(100% / 1);
+  }
+  .info_card_border {
+    border-right: none;
+  }
+  .identity_wrapper_responsive .border_bottom_email {
+    flex-direction: column;
+  }
+  .identity_wrapper_responsive .border_bottom_email {
+    border-bottom: unset;
+    padding-bottom: unset;
+  }
+  .identity_wrapper_responsive {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+  }
+  .identity_wrapper_responsive
+    .border_bottom_email
+    .verify_email_button
+    button {
+    margin-top: 10px;
+    margin-left: -60px;
+    width: 131px;
+  }
+}
+@media (max-width: 637px) {
+  .border_bottom_email {
+    flex-wrap: wrap;
+  }
+  .identity_wrapper_responsive .border_bottom_email {
+    flex-wrap: nowrap;
+  }
+  .asset_input {
+    top: 20px;
+  }
+  .verify_wrapper button {
+    margin-top: 20px;
+  }
+  .verify_wrapper {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 600px) {
+  .loan_wrapper {
+    padding: 12px 0px 12px 24px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(100% / 1);
+  }
+  .loan_border {
+    border-right: 0;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  .loan_wrapper:last-child .loan_border {
+    border: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .feature_tick {
+    position: absolute;
+    right: 0;
+  }
+  .verify_email_button,
+  .verify_email_button button {
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .verify_email_title .text {
+    width: unset;
+  }
+}
+
+@media (max-width: 450px) {
+  .feature_tick img {
+    height: 25px;
+    width: 25px;
+  }
+  .feature_tick {
+    top: 6px;
+  }
+}

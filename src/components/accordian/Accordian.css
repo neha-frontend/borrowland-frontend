@@ -1,0 +1,11 @@
+.accordion-item {
+  border: none;
+}
+.accordion-button:focus {
+  border: none;
+  border-color: transparent;
+  box-shadow: none;
+}
+.accordion-body {
+  padding: 0;
+}

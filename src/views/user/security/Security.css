@@ -1,0 +1,26 @@
+.security_title {
+  font-size: 20px;
+}
+.disclose_text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+.security_box {
+  background: #ffffff;
+  border: 1px solid #e2ecff;
+  box-shadow: -2px 4px 6px rgba(188, 210, 255, 0.41);
+  border-radius: 6px;
+}
+.info_verification:last-of-type .border_bottom_email {
+  border-bottom: unset;
+}
+.security_background_color {
+  height: calc(100vh - 56px);
+}
+@media (max-width: 991px) {
+  .security_background_color {
+    height: calc(100vh - 76px);
+  }
+}

@@ -1,0 +1,85 @@
+#reset_pwd{
+  margin-bottom: 40px;
+}
+.font_alter {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.dropdown-item {
+  font-weight: 600;
+}
+#my_dropdown button,
+#my_dropdown input {
+  color: #9e9e9e;
+  width: 100%;
+  font-family: "Lato";
+  font-style: normal;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  background: rgba(226, 236, 255, 0.3);
+  border-radius: 8px;
+  padding: 14px 52px;
+}
+#my_dropdown {
+  display: flex;
+}
+#my_dropdown button {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 1px solid #e2ecff;
+}
+#my_dropdown input {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top: 1px solid #e2ecff;
+  border-right: 1px solid #e2ecff;
+  border-bottom: 1px solid #e2ecff;
+  border-left: 0;
+}
+
+.flex80 {
+  flex: 80%;
+}
+.flex20 {
+  max-width: 0;
+  flex: 20%;
+}
+.react-tel-input .country-list .search {
+  padding-right: 10px;
+}
+#country_code_dropdown .form-control.is-invalid:focus {
+  border-color: #dc3545;
+  box-shadow: none;
+}
+#country_code_dropdown .form-control:focus {
+  box-shadow: none;
+}
+.react-tel-input .selected-flag {
+  width: 55px;
+}
+.react-tel-input .selected-flag .arrow {
+  left: 25px;
+}
+.react-tel-input .selected-flag .flag {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  margin-top: -5px;
+}
+#country_code_dropdown .flag-dropdown,
+#country_code_dropdown .flag-dropdown.open,
+.react-tel-input .selected-flag:hover {
+  background: rgba(226, 236, 255, 0.3);
+}
+.mobile_invalid #country_code_dropdown,
+.dropdown_invalid {
+  border-color: #dc3545;
+}
+.mobile_invalid .react-tel-input .flag-dropdown {
+  border-color: #dc3545;
+  border: 1px solid #dc3545;
+}

@@ -1,0 +1,143 @@
+#my_dropdown.profile_dropdown .dropdown-toggle::after {
+  border: none;
+  height: 5px;
+  background-image: url("../../assets/images/drop_arrow.svg");
+  background-repeat: no-repeat;
+  width: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+}
+#my_dropdown.profile_dropdown button,
+#my_dropdown.profile_dropdown button:focus,
+#my_dropdown.profile_dropdown button:hover {
+  background-color: unset;
+  border: unset;
+  outline: none;
+  height: unset;
+  padding: 0;
+  box-shadow: none;
+}
+#my_dropdown.profile_dropdown .dropdown-menu.show {
+  left: -108px;
+}
+#my_dropdown.profile_dropdown button {
+  margin-bottom: 0;
+}
+.notifiction_live {
+  width: 8px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  height: 8px;
+  border-radius: 50%;
+  background: #2424ff;
+  transform: translateY(-50%);
+}
+.notification_active {
+  background: #f5f8ff;
+  border-radius: 6px;
+}
+.profile_dropdown_responsive {
+  display: flex;
+  align-items: center;
+}
+.profile_dropdown_responsive .dropdown_arrow_down {
+  width: 8px;
+  cursor: pointer;
+  margin-left: 10px;
+  height: 8px;
+}
+.profile_tabination_box {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 20px;
+}
+.profile_dropdown_links {
+  padding-left: 56px;
+}
+.profile_dropdown_links a,
+.profile_dropdown_links a:not([href]):not([tabindex]) {
+  font-family: "Inter";
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #000080;
+}
+.profile_dropdown_links .profile_state_dropdown {
+  padding-bottom: 16px;
+}
+.profile_dropdown_links .profile_state_dropdown:last-child {
+  padding-bottom: 0;
+}
+.profile_box {
+  align-items: center;
+  max-width: 150px;
+  width: 100%;
+  justify-content: space-between;
+}
+.navbar-brand {
+  padding: 0;
+  cursor: pointer;
+}
+.navbar_custom a {
+  padding: 15px 15px;
+}
+.custom_dashboard_tabs p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  padding-left: 5px;
+  color: #616161;
+}
+.custom_dashboard_tabs.active_tab p {
+  color: #000080;
+  font-weight: 600;
+}
+.inactive_tab {
+  border-bottom: 2px solid white;
+}
+.active_tab {
+  border-bottom: 2px solid #000080;
+}
+.header_shadow {
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(143, 143, 143, 0.16);
+}
+.not_close_btn,
+.not_close_btn:hover,
+.not_close_btn:focus,
+.not_close_btn.btn-primary:not(:disabled):not(.disabled):active {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  height: auto;
+  padding: unset;
+}
+.not_close_btn.dropdown-toggle::after {
+  display: none;
+}
+.custom_dashboard_tabs {
+  display: flex;
+}
+.custom_dashboard_tabs.help {
+  display: none;
+}
+@media (max-width: 991px) {
+  .navbar_custom {
+    max-height: unset !important;
+  }
+  .custom_dashboard_tabs.help {
+    display: flex;
+  }
+}
+.profile_dropdown_links a,
+.profile_dropdown_links a:not([href]):not([tabindex]) {
+  font-weight: 600;
+}
+.user-container #nav_container .container {
+  max-width: unset;
+}

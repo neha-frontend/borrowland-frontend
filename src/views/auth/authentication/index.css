@@ -1,0 +1,54 @@
+.text_grey,
+.text_grey:hover {
+  color: #616161;
+  font-weight: 400;
+  font-size: 14px;
+}
+.custom_otp div:first-child {
+  justify-content: space-between;
+}
+.timer {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #f95c66;
+}
+.resent_link {
+  color: #1a96f0;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  /* opacity: 0.5; */
+}
+.disabled-link {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.otp_input_container input {
+  border: none;
+  width: 40px;
+  color: #424242;
+  border-bottom: 1px solid #616161;
+  font-size: 25px;
+  height: 50px;
+  border-radius: 0;
+  background: unset;
+  justify-content: space-between;
+}
+.resent_link.text {
+  opacity: 1;
+  font-weight: 600;
+}
+.verify_button:disabled {
+  background-color: #000080;
+  border: none;
+}
+.otp_input_container input:focus-visible {
+  outline: none;
+  outline-offset: none;
+}
+.auth_para_text {
+  font-size: 14px;
+}

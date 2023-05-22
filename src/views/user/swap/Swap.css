@@ -1,0 +1,248 @@
+.swap_bg {
+  padding: 50px 0;
+  background-color: #fafcff;
+  height: calc(100vh - 56px);
+}
+.swap_wrapper {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+}
+.swap_container {
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+  max-width: 600px;
+}
+.swap_question_wrapper {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e2ecff;
+  align-items: center;
+}
+.swap_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #000012;
+}
+.swap_wallet {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 16px;
+  font-size: 20px;
+  color: #212121;
+  letter-spacing: 0.02em;
+}
+.swap_small_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #757575;
+}
+.percentage {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: right;
+  color: #0054f0;
+}
+.wallet_wrapper {
+  padding: 20px;
+}
+#swap_howto:hover{
+  color: #4183ff;
+}
+
+/* Custom dropdown for btc  */
+#btc_dropdown button,
+#btc_dropdown input,
+#btc_dropdown button:hover,
+#btc_dropdown input:hover,
+#btc_dropdown button:focus,
+#btc_dropdown input:focus {
+  box-shadow: none;
+  height: 56px;
+  background-color: unset;
+  outline: none;
+  border: 1px solid #e0e0e0;
+}
+#btc_dropdown input,
+#btc_dropdown input::placeholder,
+#btc_dropdown input:focus,
+#btc_dropdown input:hover {
+  border-left: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #bdbdbd;
+}
+#btc_dropdown .dropdown-menu.show:before {
+  border: none;
+}
+#btc_dropdown .dropdown-menu.show {
+  width: 100%;
+}
+#btc_dropdown button {
+  color: #000012;
+  font-weight: 600;
+  font-size: 14px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#btc_dropdown .dropdown-toggle::after {
+  border: none;
+  height: 5px;
+  background-image: url("../../../assets/images/btc_dropdown.svg");
+  width: 8px;
+  background-repeat: no-repeat;
+}
+.drop_title_coin {
+  font-family: "Inter";
+  margin-left: 6px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000012;
+}
+.btc_title {
+  margin: 0 12px;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000012;
+}
+.input_btn_box {
+  position: relative;
+  width: 1%;
+  flex: 1;
+}
+.input_btn_box input {
+  width: 100%;
+}
+.value_titles {
+  max-width: 37px;
+  position: absolute;
+  width: 100%;
+  right: 20px;
+  top: 20px;
+}
+.max-130px {
+  width: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #0054f0;
+  max-width: 130px;
+}
+.value_swap {
+  padding: 2px 6px;
+  border-radius: 2px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #9e9e9e;
+  cursor: pointer;
+
+}
+/* .value_usd {
+  padding: 2px 6px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #9e9e9e;
+} */
+.value_active {
+  color: #000080;
+  background: #e2ecff;
+  width: fit-content;
+
+}
+.swap_section {
+  border-bottom: 1px solid #e2ecff;
+  position: relative;
+  margin: 50px 0;
+}
+.swap_icon {
+  left: 50%;
+  cursor: pointer;
+  position: absolute;
+  transform: translateX(-50%);
+  top: -18px;
+}
+.hw16 {
+  height: 16px;
+  width: 16px;
+}
+.faq_blue_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #4183ff;
+}
+.faq-learn-section {
+  justify-content: space-around;
+  position: relative;
+  display: flex;
+  margin: 20px auto 0;
+}
+.border_right_height {
+}
+.padding-left-50 {
+}
+.faq-learn-section img {
+  height: 16px;
+  width: 16px;
+}
+.border_middle {
+  left: 47%;
+  position: absolute;
+  height: 24px;
+  border-right: 1px solid #e0e0e0;
+  transform: translateX(-50%);
+  top: -4px;
+}
+.swap_input_group {
+  border: 1px solid #e0e0e0;
+  border-radius: 0.25rem;
+}
+#btc_dropdown .swap_input_group button {
+  border: none;
+  border-right: 1px solid #e0e0e0;
+}
+#btc_dropdown .swap_input_group input {
+  border: none;
+  color: #000012;
+}
+.balance-error{
+  color: red;
+    font-size: 14px;
+}
+@media (max-width: 991px) {
+  .swap_bg {
+    height: calc(100vh - 76px);
+  }
+}
+@media (max-width: 490px) {
+  .border_middle {
+    left: 42%;
+  }
+}
+@media (max-width: 450px) {
+  .border_middle {
+    left: 35%;
+  }
+}

@@ -1,0 +1,42 @@
+export const AffiliateTableData = [
+  {
+    id: "#1",
+    name: "John Doe",
+    date: "12-12-2022",
+    swap: "$4800",
+    lend: "$4800",
+    borrow: "$4800",
+  },
+  {
+    id: "#2",
+    name: "John Doe",
+    date: "12-12-2022",
+    swap: "$4800",
+    lend: "$4800",
+    borrow: "$4800",
+  },
+  {
+    id: "#3",
+    name: "John Doe",
+    date: "12-12-2022",
+    swap: "$4800",
+    lend: "$4800",
+    borrow: "$4800",
+  },
+  {
+    id: "#4",
+    name: "John Doe",
+    date: "12-12-2022",
+    swap: "$4800",
+    lend: "$4800",
+    borrow: "$4800",
+  },
+  {
+    id: "#5",
+    name: "John Doe",
+    date: "12-12-2022",
+    swap: "$4800",
+    lend: "$4800",
+    borrow: "$4800",
+  },
+];

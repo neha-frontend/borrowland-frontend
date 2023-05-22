@@ -1,0 +1,73 @@
+.swap_modal {
+  padding: 40px 60px;
+}
+
+.swap_preview_section {
+  border: 1px solid #e2ecff;
+  border-radius: 6px;
+}
+.title_swap {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000012;
+}
+
+.dark_coin_title {
+  background: rgba(226, 236, 255, 0.3);
+  border-radius: 6px;
+  /* max-width: 100px; */
+  width: 100%;
+  padding: 10px 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000049;
+}
+
+.hw24 {
+  height: 24px;
+  width: 24px;
+}
+
+.swap_preview_middle {
+  position: relative;
+  border-bottom: 1px solid #e2ecff;
+  margin: 6px 0;
+}
+.swap_modal_preview {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -20px;
+}
+.time_ques {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #616161;
+}
+.time_ans {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #616161;
+}
+
+.time_stamp_wrapper {
+  flex-wrap: wrap;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 420px) {
+  .time_stamp_wrapper {
+    flex-direction: column;
+  }
+}

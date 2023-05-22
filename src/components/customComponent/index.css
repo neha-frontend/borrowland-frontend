@@ -1,0 +1,10 @@
+.position-abs {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #939090;
+}
+.password-eye-icon {
+  background-color: transparent;
+  right: 8px;
+}

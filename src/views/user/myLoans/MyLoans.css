@@ -1,0 +1,16 @@
+.my_loans_title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000012;
+}
+.my_loans_value {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000012;
+}
+#pay_now_button {
+  font-weight: 600;
+  font-size: 14px;
+}

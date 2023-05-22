@@ -1,0 +1,161 @@
+.setting_main_title {
+  font-size: 20px;
+}
+.setting_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #000012;
+}
+.setting_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  text-align: justify;
+  font-size: 15px;
+  color: #9e9e9e;
+}
+
+/* Radio custom  */
+.custom_radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  margin: 0;
+  height: 18px;
+  width: 18px;
+  border: 1.5px solid #000080;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.width_40 {
+  margin-top: 6px;
+  width: 37px;
+}
+:hover input ~ .checkmark {
+  background-color: #fff;
+}
+
+input:checked ~ .checkmark {
+  background-color: #fff;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.checkmark:after {
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #000080;
+}
+/* switch custom  */
+.custom_checkbox {
+  margin-right: 20px;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 18px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  margin: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #d7d7d7;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 3px;
+  bottom: 2px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #000080;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #000080;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(16px);
+  -ms-transform: translateX(16px);
+  transform: translateX(16px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* responsive */
+@media (max-width: 557px) {
+  .settings_check_flex {
+    justify-content: space-between;
+    position: relative;
+  }
+  .settings_check_flex .custom_radio,
+  .settings_check_flex .custom_checkbox {
+    order: 2;
+    margin-right: 0;
+    position: absolute;
+    right: 0.5rem;
+  }
+  .settings_check_flex .custom_radio .checkmark {
+    margin-left: 10px;
+    right: 0;
+  }
+  .setting_text_container {
+    margin-right: 15px;
+  }
+  .setting_main_title {
+    font-size: 18px;
+  }
+  .setting_title {
+    font-size: 14px;
+    line-height: 27px;
+  }
+  .setting_text {
+    font-size: 13px;
+  }
+}

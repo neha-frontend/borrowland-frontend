@@ -1,0 +1,77 @@
+.affiliate_wrapper {
+  padding: 50px;
+}
+.affiliate_title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.affiliate_card_box {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 23px 24px 23px 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.affiliate_text_container {
+  margin-left: 30px;
+  color: #424242;
+}
+.affiliate_text_container .affiliate_f16_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 7px;
+}
+.invite_affiliate_card .affiliate_text_container .affiliate_f16_text {
+  font-size: 18px;
+  line-height: 22px;
+}
+.affiliate_text_container .affiliate_bold_text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+.invite_affiliate_card .affiliate_text_container .affiliate_bold_text {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+}
+.copy_img {
+  filter: brightness(0) invert(1);
+}
+.affiliate_option .affiliate_f16_text {
+  order: 2;
+  margin-bottom: 0;
+}
+.affiliate_option .affiliate_bold_text {
+  margin-bottom: 7px;
+}
+.affiliate_option .affiliate_icon {
+  width: 52px;
+  height: 52px;
+}
+.affiliate_leaderboard_container {
+  padding: 30px;
+}
+.affiliate_btn {
+  max-width: 140px;
+  width: 100%;
+}
+
+/* responsive */
+@media (max-width: 992px) {
+  .affiliate_wrapper {
+    padding: 20px 20px;
+  }
+  .affiliate_card_box {
+    padding: 17px 18px 17px 20px;
+  }
+}
+@media (max-width: 575px) {
+  .affiliate_btn {
+    margin-left: 70px;
+  }
+}

@@ -1,0 +1,9 @@
+.border_box {
+  background: #ffffff;
+  border: 1px solid #e2ecff;
+  box-shadow: -2px 4px 6px rgba(188, 210, 255, 0.41);
+  border-radius: 6px;
+}
+.profile_identity_verify_btn.identity_verify_button {
+  font-weight: 600;
+}
